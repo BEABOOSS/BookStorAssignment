@@ -10,6 +10,8 @@ unsure what version you have run
 `dotnet --list-sdks`
 
 To start this project.
+- `git clone https://github.com/BEABOOSS/BookStorAssignment.git`
+- `cd BookStorAssignment`
 - `dotnet restore`
 - `dotnet build`
 * note ignore the warnings 
