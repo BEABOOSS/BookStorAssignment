@@ -1,0 +1,12 @@
+﻿@model IEnumerable<BookStore.Models.Book>
+@{
+    ViewData["Title"] = "Home";
+}
+
+<h1>Home</h1>
+<form asp-controller="Books" asp-action="Index" method="get">
+    <div class="input-group input-group-lg mt-4">
+        <input type="text" class="form-control" placeholder="Search For A Book" aria-label="Search For A Book" aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Search</button>
+    </div>
+</form> 
